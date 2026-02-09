@@ -135,9 +135,9 @@ pip install -r requirements.txt
 ---
 
 ## Usage
-Prepare Input Video: Place your football match video (e.g., match.mp4) in an input_videos/ folder.
+**Prepare Input Video**: Place your football match video (e.g., match.mp4) in an input_videos/ folder.
 
-Run the Pipeline:
+**Run the Pipeline**:
 ```bash
 python main.py --input input_videos/match.mp4 --output output_videos/annotated_match.mp4
 ```
@@ -146,7 +146,7 @@ python main.py --input input_videos/match.mp4 --output output_videos/annotated_m
 ---
 
 ## Notes on Excluded Files
-To maintain clarity and repository size constraints, the following are excluded from the repo:
+**To maintain clarity and repository size constraints, the following are excluded from the repo**:
 
 - Trained Model Weights (.pt)
 
