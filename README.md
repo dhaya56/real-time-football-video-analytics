@@ -95,6 +95,8 @@ The pipeline is structured as a sequence of modular components:
 └── README.md
 ```
 
+---
+
 ## Setup & Installation
 ### 1️⃣ Clone the Repository
 ```bash
@@ -121,26 +123,26 @@ pip install -r requirements.txt
 ```
 
 ### 4️⃣ Download Model Weights
-    This repository does not include trained YOLO model weights to keep the codebase lightweight.
+This repository does not include trained YOLO model weights to keep the codebase lightweight.
 
-    Download YOLOv8 weights (e.g., yolov8x.pt or yolov8l.pt) from the official Ultralytics repository.
+Download YOLOv8 weights (e.g., yolov8x.pt or yolov8l.pt) from the official Ultralytics repository.
 
-    Place the .pt file in the root directory.
+Place the .pt file in the root directory.
 
 ## Usage
-Prepare Input Video: Place your football match video (e.g., match.mp4) in an input_videos/ folder.
+- Prepare Input Video: Place your football match video (e.g., match.mp4) in an input_videos/ folder.
 
 Run the Pipeline:
 ```bash
 python main.py --input input_videos/match.mp4 --output output_videos/annotated_match.mp4
 ```
-Note: If you run main.py without arguments, ensure the file paths inside the script match your local directory structure.
+**Note**: If you run main.py without arguments, ensure the file paths inside the script match your local directory structure.
 
 ## Notes on Excluded Files
 To maintain clarity and repository size constraints, the following are excluded from the repo:
 
-    Trained Model Weights (.pt)
+- Trained Model Weights (.pt)
 
-    Input/Output Videos
+- Input/Output Videos
 
-    Training Artifacts & Logs
+- Training Artifacts & Logs
