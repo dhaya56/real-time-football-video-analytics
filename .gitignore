@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights
+*.pt
+*.pth
+
+# Entire training and model folders
+training/
+models/
+
+# YOLO outputs & experiments
+runs/
+
+# Data & videos
+input_videos/
+output_videos/
+output_annotations/
+ground_truth/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
