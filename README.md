@@ -93,43 +93,50 @@ The pipeline is structured as a sequence of modular components:
 ├── yolo_inference.py            # Inference testing script
 ├── requirements.txt             # Dependencies
 └── README.md
+```
 
-Setup & Installation
-1️⃣ Clone the Repository
+## Setup & Installation
+### 1️⃣ Clone the Repository
 ```bash
 git clone [https://github.com/dhaya56/real-time-football-video-analytics.git](https://github.com/dhaya56/real-time-football-video-analytics.git)
 cd real-time-football-video-analytics
+```
 
-2️⃣ Create Virtual Environment
+### 2️⃣ Create Virtual Environment
 ```bash
 # Windows
 python -m venv venv
 venv\Scripts\activate
+```
 
+```bash
 # Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
+```
 
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Download Model Weights
-This repository does not include trained YOLO model weights to keep the codebase lightweight.
+### 4️⃣ Download Model Weights
+    This repository does not include trained YOLO model weights to keep the codebase lightweight.
 
-Download YOLOv8 weights (e.g., yolov8x.pt or yolov8l.pt) from the official Ultralytics repository.
+    Download YOLOv8 weights (e.g., yolov8x.pt or yolov8l.pt) from the official Ultralytics repository.
 
-Place the .pt file in the root directory.
+    Place the .pt file in the root directory.
 
-Usage
+## Usage
 Prepare Input Video: Place your football match video (e.g., match.mp4) in an input_videos/ folder.
 
 Run the Pipeline:
 ```bash
 python main.py --input input_videos/match.mp4 --output output_videos/annotated_match.mp4
+```
 Note: If you run main.py without arguments, ensure the file paths inside the script match your local directory structure.
 
-Notes on Excluded Files
+## Notes on Excluded Files
 To maintain clarity and repository size constraints, the following are excluded from the repo:
 
     Trained Model Weights (.pt)
