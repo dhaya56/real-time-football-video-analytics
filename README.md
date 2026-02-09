@@ -1,6 +1,9 @@
 # Real-Time Football Video Analytics using YOLOv8
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![YOLOv8](https://img.shields.io/badge/YOLOv8-Object_Detection-green) ![OpenCV](https://img.shields.io/badge/OpenCV-Computer_Vision-white) ![PyTorch](https://img.shields.io/badge/PyTorch-Deep_Learning-red)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![YOLOv8](https://img.shields.io/badge/YOLOv8-Object_Detection-green)](https://github.com/ultralytics/ultralytics)
+[![OpenCV](https://img.shields.io/badge/OpenCV-Computer_Vision-white)](https://opencv.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-Deep_Learning-red)](https://pytorch.org/)
 
 An end-to-end computer vision system for **football video analytics**, designed to process match footage frame-by-frame and generate continuous, annotated outputs. The pipeline integrates object detection, tracking, team assignment, possession analysis, and motion estimation using modern deep learning and vision techniques.
 
@@ -9,13 +12,13 @@ This project emphasizes **real-time inference pipelines**, modular system design
 ---
 
 ## Table of Contents
-- [Key Features](#-key-features)
-- [System Architecture](#-system-architecture)
-- [Core Technologies](#-core-technologies)
-- [Project Structure](#-project-structure)
-- [Setup & Installation](#-setup--installation)
+- [Key Features](#key-features)
+- [System Architecture](#system-architecture)
+- [Core Technologies](#core-technologies)
+- [Project Structure](#project-structure)
+- [Setup & Installation](#setup--installation)
 - [Usage](#-usage)
-- [Notes on Excluded Files](#-notes-on-excluded-files)
+- [Notes on Excluded Files](#notes-on-excluded-files)
 
 ---
 
